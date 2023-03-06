@@ -52,7 +52,7 @@ public class QuadraticEquation {
 
     @Override
     public String toString() {
-        return String.format( "Phuong trinh bac 2: " + " %dx2 + %dx + %d = 0",a,b,c);
+        return String.format( "Phuong trinh bac 2: " + " %dx2 + %dx + %d = 0" , a , b , c);
     }
 
 
