@@ -19,6 +19,8 @@ public class Triangle {
             System.out.print("Enter c: "); c = sc.nextInt();
             System.out.println("Triangle(" + a + "," + b + "," + c + ")");
             Triangle triangle = new Triangle(a,b,c);
+        }catch (InputMismatchException i){
+            System.out.println("Error, please enter again !!");
         }catch (Exception e){
             System.err.println("Exception occured: " + e);
         }
